@@ -80,7 +80,7 @@ $(document).ready(function() {
   $(function() {
     typed.typed({
       strings: ["Sarang baik.", "Saranf.", "Developer.", "Korean.", "Photographer"],
-      typeSpeed: 50,
+      typeSpeed: 200,
       loop: true,
     });
   });
