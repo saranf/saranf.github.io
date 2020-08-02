@@ -240,9 +240,10 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("../images/2.png") repeat scroll center center / cover;
+  background: url("../images/2.png") no-repeat scroll center center / contain ;
   height: 100vh;
   width: 100%;
+  
 }
 
 
@@ -629,3 +630,91 @@ nav ul li a {
 .credits {
   font-size: 13px;
 }
+
+#myProgress {
+  width: 100%;
+  background-color: transparent;
+}
+
+#LINUX {
+  width: 60%;
+  height: 10px;
+  background-color: #dd4628;
+  text-align: right;
+  transition:width 2s, height 2s, transform 2s;
+
+}
+#LINUX:hover {
+  width: 1%;
+  height: 10px;
+  background-color: #dd4628;
+  text-align: right;
+}
+
+#PHP {
+  width: 65%;
+  height: 10px;
+  background-color: #dd4628;
+  text-align: right;
+  transition:width 2s, height 2s, transform 2s;
+}
+
+#PHP:hover {
+  width: 1%;
+  height: 10px;
+  background-color: #dd4628;
+  text-align: right;
+}
+
+#JAVA {
+  width: 70%;
+  height: 10px;
+  background-color: #dd4628;
+  text-align: right;
+  transition:width 2s, height 2s, transform 2s;
+}
+
+#JAVA:hover {
+  width: 1%;
+  height: 10px;
+  background-color: #dd4628;
+  text-align: right;
+}
+
+#NETWORK {
+  width: 65%;
+  height: 10px;
+  background-color: #dd4628;
+  text-align: right;
+  transition:width 2s, height 2s, transform 2s;
+}
+
+#NETWORK:hover {
+  width: 1%;
+  height: 10px;
+  background-color: #dd4628;
+  text-align: right;
+}
+
+#NODE {
+  width: 75%;
+  height: 10px;
+  background-color: #dd4628;
+  text-align: right;
+  transition:width 2s, height 2s, transform 2s;
+}
+
+#NODE:hover {
+  width: 1%;
+  height: 10px;
+  background-color: #dd4628;
+  text-align: right;
+  transition:width 2s, height 2s, transform 2s;
+}
+
+.mcp{
+  position: absolute;
+    right: 5px;
+    margin-top: -5px;
+}
+
